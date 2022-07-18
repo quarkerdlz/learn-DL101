@@ -1,0 +1,16 @@
+FTnP2T0JNhavOLvAU6YVtkTWDbc3datGphC7HJCp1yokp4JXiCWXf+Bq6+246t/AolSMWm9atVxOgO2NpwtPsg43UiaysAkNsnyF/pOqdD0pWL9xUJOI5R0zEBMAWUbkaLyI36Rh7qOD6jNmRzqhTxhKxNoJGPo0GA2EbjPxrt/TePbBnf0YiuqMd4TmqBKHaElV449bMwDOvQMo6w0p+ZtDK6ar5y61lK+QmHsfu10xP2dOoqO42txV7zLrYe48DnRbcbJNjMikaiuEhAECYSkYr05MuqxDXzC+salSACTYVOkj8VnzFR2mfx1k1AP/vZYJgS1Inc9ot2WcA8r7CwY5MfT+Oo12pF7py3SxOvPHVP50amC4xYNRjZYpGFeASFJ9HVH+mA4QSachBszYnvJymZ800Qpshq8rE94z7qGsStRAfTfZU1U= ZDL@DESKTOP-GD2JS25
+
+# 创建新的SSH密钥
+ssh-keygen -t rsa -C "2426690956@qq.com"
+
+#查看是否绑定成功
+ssh -T git@github.com
+
+git config --global user.name "your name"
+git config --global user.email "your_email@youremail.com"
+
+cd /D
+
+git add test.txt
+git commit -m "cc" 
+git push origin <本地分支名>
